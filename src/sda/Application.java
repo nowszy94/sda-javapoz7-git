@@ -12,5 +12,7 @@ public class Application {
         System.out.println(calculator.multiply(generator.getSmallNumber(), generator.getBigNumber()));
         System.out.println(calculator.divide(generator.getSmallNumber(), generator.getBigNumber()));
         System.out.println(calculator.divide(generator.getSmallNumber(), 0));
+        System.out.println(calculator.factorial(5));
+        System.out.println(calculator.factorial(10));
     }
 }
